@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Running Covid Data Science Scraper"
+cd /home/ubuntu/Users/simonmandel/git/covid19_data_science
+curl https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv > Covid_US_Daily.csv
+curl https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv > Covid_Global_Daily.csv
+echo "Complete"
