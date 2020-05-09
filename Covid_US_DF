@@ -1,0 +1,8 @@
+#!/bin/bash
+url1=https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/
+url2=="$(date -v-1d '+%m-%d-%Y')"
+url3=.csv
+
+cd /home/ubuntu/Users/simonmandel/git/covid19_data_science
+
+curl $url1$url2$url3
