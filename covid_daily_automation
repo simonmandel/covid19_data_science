@@ -6,7 +6,8 @@ curl https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid
 
 
 echo ">>>rclone to Gdrive<<<"
-/usr/bin/rclone copy /home/ubuntu/Users/simonmandel/git/covid19_data_science GoogleDrive2:Personal//CSV
+/usr/bin/rclone copy /home/ubuntu/Users/simonmandel/git/covid19_data_science GoogleDrive2:Personal/Covid_Data
+
 
 
 echo "Complete"
