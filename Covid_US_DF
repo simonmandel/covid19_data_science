@@ -8,3 +8,5 @@ cd /home/ubuntu/Users/simonmandel/git/covid19_data_science
 curl $url1$url2$url3 > Covid_US_DF.csv
 
 /usr/bin/rclone copy /home/ubuntu/Users/simonmandel/git/covid19_data_science/Covid_US_DF.csv GoogleDrive2:Personal/Covid_Data
+
+rm *.csv
