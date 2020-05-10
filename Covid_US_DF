@@ -1,6 +1,6 @@
 #!/bin/bash
 url1=https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/
-url2=="$(date -v-1d '+%m-%d-%Y')"
+url2=$(date --date='-1 day' '+%m-%d-%Y')
 url3=.csv
 
 cd /home/ubuntu/Users/simonmandel/git/covid19_data_science
